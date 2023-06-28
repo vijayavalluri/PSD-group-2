@@ -165,3 +165,28 @@ button {
 #button2 {
     margin-top: 30px;
 }
+
+.watch-section {
+    background-image: url("./images/photoshop/design-assets/bgk-middle.png");
+    background-size: cover;
+
+}
+
+.video-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+}
+
+#video {
+    width: 150px;
+    height: 150px;
+}
+
+#video-text {
+    font-size: 20px;
+    color: #f5f5f5e0;
+    padding-top: 20px;
+}
