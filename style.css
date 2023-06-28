@@ -1,0 +1,43 @@
+
+main{
+    background-color: white;
+
+}
+#content{
+  margin: 4em 17em 0 17em;
+}
+.headerofexpertise h1{
+font-weight: bold;
+font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+.headerofexpertise span{
+    font-weight:normal;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    }
+    
+
+.grid-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows:  1fr 1fr 1fr ;
+
+
+    
+    margin: 0 auto;
+}
+.grid-item {
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+padding: 30px;
+    
+  
+}

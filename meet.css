@@ -1,0 +1,54 @@
+main{
+    background-color: white;
+    background-image: url("C:\Users\saivi\Documents\WBS coding\photoshop\photoshop\design-assets\bgk-middle.png");
+
+}
+#content{
+  margin: 4em 15em 2em 15em;
+}
+.headerofmeet h1{
+font-weight: bold;
+font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+.headerofmeet span{
+    font-weight:normal;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    }
+
+
+   
+    .item {
+        border: 1px solid gainsboro;
+        display: flex;
+        flex-direction: row;
+        margin: 1em;
+       padding: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    
+    }
+
+    .item > .empty{
+        height:10em;
+        width:0.8em;
+    }
+
+    .item .paragraph{
+        padding-top: 9em;
+        font-size: 14px;
+    }
+
+    .item .paragraph .bold{
+        font-weight: bold;
+        
+    }
+
+    .item .paragraph .normal{
+        font-weight: normal;
+      
+    }
