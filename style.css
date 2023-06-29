@@ -1,6 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+}
 
 
 main{
@@ -168,4 +177,417 @@ font-style: 'Regular';
 .grid-item p{
     align-self: center;
     
+
+
+/*--------------------- CONTACT FORM SECTION CONTAINER -----------------------------------*/
+
+.contact-section h2 {
+    text-transform: uppercase;
+}
+
+
+.contact-section {
+    display: flex;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    padding: 4rem 0 4rem 0;
+}
+
+/*--------------------- CONTACT FORM -----------------------------------*/
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contact-form-container textarea {
+    width: 100%;
+    padding: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #9e9b9b;
+}
+
+.contact-form-container input {
+    padding: 0.8em;
+    margin: 0 0 1em 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #9e9b9b;
+}
+
+#paperplane-button {
+    color: rgba(38, 198, 218, 0.8);
+    border: 2px solid rgba(38, 198, 218, 0.8);
+    background-color: #fff;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+/*--------------------- CLIENT LOGO CONTAINER -----------------------------------*/
+
+.client-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.client-logo-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.client-logo-container img {
+    max-width: 80%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*--------------------- FOOTER -----------------------------------*/
+
+footer {
+    background-image: url("../images/bgk-footer.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 4em 0 4em 0;
+    gap: 2em;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: 0;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer address {
+    font-size: 0.9em;
+}
+
+.upper-footer-container {
+    gap: 1rem;
+}
+
+.upper-footer-container,
+.lower-footer-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-footer-container {
+    color: #fff;
+}
+
+footer .footer-nav {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.footer-nav li:nth-of-type(2) {
+    padding: 0 1rem 0 1rem;
+}
+
+.company-section-container,
+.our-studio-container,
+.stay-in-touch-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1em;
+}
+
+
+/*--------------------- COMPANY SECTION CONTAINER -----------------------------------*/
+
+.company-section-container {
+    color: #fff;
+}
+
+.company-section-container .logo-container {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    color: rgba(38, 198, 218, 0.8);
+    font-size: 2em;
+    gap: 0.5em;
+}
+
+.logo-container img {
+    height: 1.4em;
+}
+
+
+
+/*--------------------- OUR STUDIO CONTAINER -----------------------------------*/
+
+.our-studio-container {
+    color: #fff;
+}
+
+.our-studio-container ul {
+    list-style-type: none;
+}
+
+.our-studio-container div {
+    display: flex;
+}
+
+.our-studio-container img {
+    height: 1em;
+    width: auto;
+    padding-top: 0.4em;
+}
+
+.our-studio-container div p {
+    padding: 0;
+}
+
+.our-studio-container address {
+    font-style: normal;
+    font-size: 1em;
+}
+
+.icon-container {
+    width: 10%;
+}
+
+/*--------------------- STAY IN TOUCH CONTAINER -----------------------------------*/
+
+.stay-in-touch-container ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.stay-in-touch-container li {
+    padding: 0 0.3em 0 0.3em;
+}
+
+.stay-in-touch-container form {
+    display: flex;
+    gap: 0.5em;
+    justify-content: space-between;
+}
+
+.stay-in-touch-container input {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 1em;
+    opacity: 50%;
+    font-size: 1em;
+}
+
+.stay-in-touch-container button {
+    padding: 0 2em 0 2em;
+    opacity: 50%;
+}
+
+header {
+    background-image: url("./images/photoshop/design-assets/bgk-header.png");
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.container-intro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 20%;
+    padding-top: 15px;
+    padding-bottom: 0;
+    position: sticky;
+    top: 0;
+
+}
+
+.container-logo {
+    margin-right: auto;
+    font-size: 30px;
+    height: 70px;
+    display: flex;
+    margin-left: 35%;
+    position: sticky;
+
+
+}
+
+.container-logo h2 {
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    margin-right: 100px;
+    color: rgba(38, 198, 218, 0.8);
+    font-weight: 50;
+    position: sticky;
+    font-family: 'Lato';
+    font-weight: 00;
+
+
+}
+
+
+header ul {
+    padding: 0 80px;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 30px;
+
+
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(217, 216, 216);
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 20px 0 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header a:hover {
+    color: #5cdcd1;
+}
+
+#Home-color {
+    color: #14d1ce;
+}
+
+.container-intro-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.container-intro-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #f5f5f5e0;
+    font-family: 'Bacasime Antique';
+
+}
+
+.container-intro-text p {
+    color: #f5f5f5e0;
+    text-align: center;
+    line-height: 23px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.line1 {
+    border-top: 1px solid #14d1ce;
+    width: 55px;
+}
+
+button {
+    border-color: #14d1ce;
+    background-color: transparent;
+    color: #14d1ce;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 750;
+    padding: 15px 18px;
+    border-radius: 5px;
+}
+
+.our-story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+
+}
+
+#img-logo {
+    padding: 80px 20px 80px 200px;
+    height: 340px;
+}
+
+.story-text {
+    margin: 0 0 0 110px;
+}
+
+.our-story h2 {
+    font-family: 'Bacasime Antique';
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.our-story p {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+#button2 {
+    margin-top: 30px;
+}
+
+.watch-section {
+    background-image: url("./images/photoshop/design-assets/bgk-middle.png");
+    background-size: cover;
+
+}
+
+.video-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+}
+
+#video {
+    width: 150px;
+    height: 150px;
+}
+
+#video-text {
+    font-size: 20px;
+    color: #f5f5f5e0;
+    padding-top: 20px;
 }
