@@ -1,16 +1,28 @@
-main{
-    background-color: white;
-    background-image: url("C:\Users\saivi\Documents\WBS coding\photoshop\photoshop\design-assets\bgk-middle.png");
 
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+    
+    body{
+
+        background-image: url("./photo/photoshop/design-assets/bgk-header.png");
+        background-color: white;
+        color:white
+   
+    }
+  
+
 #content{
-  margin: 4em 15em 2em 15em;
+  margin: 2em 10em 2em 17em;
 }
 .headerofmeet h1{
 font-weight: bold;
 font-size: 25px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: center;
+padding-top: 30px;
 }
 .headerofmeet span{
     font-weight:normal;
@@ -20,29 +32,47 @@ text-align: center;
     }
 
 
+    /*.container{
+        display:flex;
+        background-color: white;
+
+    
+       
+    }*/
    
-    .item {
-        border: 1px solid gainsboro;
-        display: flex;
-        flex-direction: row;
-        margin: 1em;
-       padding: 30px;
-        justify-content: center;
-        flex-wrap: wrap;
+div.item {
         
+        display: flex;
+        float:left;
+        background-color: white;
+        height:150px;
+        width:150px;
+        border: 1px solid black;
+       /* height: 50px;
+        width:40px;
+        box-sizing: border-box;*/
+        margin: 20px;
+       
+     
     
     }
 
-    .item > .empty{
-        height:10em;
-        width:0.8em;
+    @media only screen and (min-width:320px) and (max-width:480px){
+        .flex-item{
+            width:50px;
+        }
     }
 
-    .item .paragraph{
+   /* .item > .empty{
+        height:10em;
+        width:0.8em;
+    }*/
+
+   /* .item .paragraph{
         padding-top: 9em;
         font-size: 14px;
     }
-
+*/
     .item .paragraph .bold{
         font-weight: bold;
         
@@ -50,5 +80,26 @@ text-align: center;
 
     .item .paragraph .normal{
         font-weight: normal;
+      color: white;
+    }
+
+
+    footer button{
+        margin-top: 15em;
+        
+    }
+
+
+   footer button {
+        border-color: #14d1ce;
+        background-color: transparent;
+        color: #14d1ce;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 750;
+        padding: 15px 18px;
+        border-radius: 5px;
       
     }
+
+   
