@@ -1,11 +1,182 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
     margin: 0;
 }
+
+
+main{
+    background-color: white;
+
+}
+#content{
+  margin: 4em 12em 0 10em;
+}
+.headerofexpertise h1{
+font-weight: bold;
+font-size: 23px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+.headerofexpertise span{
+    font-weight:normal;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    }
+    
+
+
+/* DEFAULT FOR THE SMALL DISPLAY */
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+.grid-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin: 0 auto;
+}
+
+.grid-test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+
+/* MEDIUM DISPLAY */
+@media only screen and (min-width: 690px) {
+    .grid-container{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr 1fr 1fr;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+}
+
+/* LARGE DISPLAY */
+@media only screen and (min-width: 800px) {
+    .grid-container{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr  ;
+        grid-template-rows:  1fr 1fr ;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+}
+
+.grid-item {
+     border-bottom: 1px solid gainsboro; 
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     padding: 30px;
+     width: 270px;
+ }
+
+ .grid-item:last-child{
+    border-bottom:none;
+}
+
+
+@media only screen and (min-width: 690px) {
+    .grid-item {
+        border-right: 1px solid gainsboro;
+        border-bottom: 1px solid gainsboro; 
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .grid-item:last-child{
+        border-right:none;
+        border-bottom:none;
+    }
+
+    .grid-item:nth-child(2){
+        border-right:none;
+        
+    }
+    .grid-item:nth-child(3){
+        
+    }
+    
+    .grid-item:nth-child(4){
+        border-right:none;
+    }
+
+    .grid-item:nth-child(5){
+        border-bottom:none;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .grid-item {
+    border-right: 1px solid gainsboro;
+        border-bottom: 1px solid gainsboro; 
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .grid-item:last-child{
+        border-right:none;
+        border-bottom:none;
+    }
+
+    .grid-item:nth-child(2){
+        border-right:1px solid gainsboro;
+        
+    }
+    
+    .grid-item:nth-child(3){
+        border-right:none;
+        
+    }
+    
+    .grid-item:nth-child(4){
+        border-bottom:none;  
+        border-right:1px solid gainsboro;
+    }
+
+    .grid-item:nth-child(5){
+        border-bottom:none;
+    }
+}
+
+.grid-item img{
+align-self: center;
+padding-bottom: 20px;
+}
+
+.grid-item h3{
+align-self: center;
+white-space: nowrap;
+font-family: 'HammersmithOne';
+font-style: 'Regular';
+
+  
+}
+
+.grid-item p{
+    align-self: center;
+    
 
 
 /*--------------------- CONTACT FORM SECTION CONTAINER -----------------------------------*/
