@@ -252,9 +252,9 @@ main {
 /*--------------------- FOOTER -----------------------------------*/
 
 footer {
-    background-image: url("../images/bgk-footer.png");
+    background-image: url("./images/bgk-footer.png");
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
     line-height: 2em;
     display: flex;
