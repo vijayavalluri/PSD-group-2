@@ -1,14 +1,244 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 body {
     margin: 0;
+}
 
+
+/*--------------------- CONTACT FORM SECTION CONTAINER -----------------------------------*/
+
+.contact-section h2 {
+    text-transform: uppercase;
+}
+
+
+.contact-section {
+    display: flex;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    padding: 4rem 0 4rem 0;
+}
+
+/*--------------------- CONTACT FORM -----------------------------------*/
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contact-form-container textarea {
+    width: 100%;
+    padding: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #9e9b9b;
+}
+
+.contact-form-container input {
+    padding: 0.8em;
+    margin: 0 0 1em 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #9e9b9b;
+}
+
+.contact-form-container button {
+    color: rgba(38, 198, 218, 0.8);
+    border: 2px solid rgba(38, 198, 218, 0.8);
+    background-color: #fff;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+/*--------------------- CLIENT LOGO CONTAINER -----------------------------------*/
+
+.client-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.client-logo-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.client-logo-container img {
+    max-width: 80%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*--------------------- FOOTER -----------------------------------*/
+
+footer {
+    background-image: url("../images/bgk-footer.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 4em 0 4em 0;
+    gap: 2em;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: 0;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer address {
+    font-size: 0.9em;
+}
+
+.upper-footer-container {
+    gap: 1rem;
+}
+
+.upper-footer-container,
+.lower-footer-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-footer-container {
+    color: #fff;
+}
+
+footer .footer-nav {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.footer-nav li:nth-of-type(2) {
+    padding: 0 1rem 0 1rem;
+}
+
+.company-section-container,
+.our-studio-container,
+.stay-in-touch-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1em;
+}
+
+
+/*--------------------- COMPANY SECTION CONTAINER -----------------------------------*/
+
+.company-section-container {
+    color: #fff;
+}
+
+.company-section-container .logo-container {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    color: rgba(38, 198, 218, 0.8);
+    font-size: 2em;
+    gap: 0.5em;
+}
+
+.logo-container img {
+    height: 1.4em;
+}
+
+
+
+/*--------------------- OUR STUDIO CONTAINER -----------------------------------*/
+
+.our-studio-container {
+    color: #fff;
+}
+
+.our-studio-container ul {
+    list-style-type: none;
+}
+
+.our-studio-container div {
+    display: flex;
+}
+
+.our-studio-container img {
+    height: 1em;
+    width: auto;
+    padding-top: 0.4em;
+}
+
+.our-studio-container div p {
+    padding: 0;
+}
+
+.our-studio-container address {
+    font-style: normal;
+    font-size: 1em;
+}
+
+.icon-container {
+    width: 10%;
+}
+
+/*--------------------- STAY IN TOUCH CONTAINER -----------------------------------*/
+
+.stay-in-touch-container ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.stay-in-touch-container li {
+    padding: 0 0.3em 0 0.3em;
+}
+
+.stay-in-touch-container form {
+    display: flex;
+    gap: 0.5em;
+    justify-content: space-between;
+}
+
+.stay-in-touch-container input {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 1em;
+    opacity: 50%;
+    font-size: 1em;
+}
+
+.stay-in-touch-container button {
+    padding: 0 2em 0 2em;
+    opacity: 50%;
 }
 
 header {
