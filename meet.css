@@ -5,12 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
     
-    body{
+    .meetus{
 
         background-image: url("./photo/photoshop/design-assets/bgk-header.png");
         background-color: white;
-        color:white
-   
+        color:white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 25%;
     }
   
 
@@ -23,50 +25,51 @@ font-size: 25px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: center;
 padding-top: 30px;
+color: white;
 }
-.headerofmeet span{
+.headerofmeet p{
     font-weight:normal;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    color: white;
     }
 
-
-    /*.container{
+    .container{
         display:flex;
-        background-color: white;
-
-    
-       
-    }*/
+        background-color: transparent;
+        height: 300px;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+ 
+           }
    
-div.item {
+.item {
         
         display: flex;
-        float:left;
-        background-color: white;
-        height:150px;
-        width:150px;
-        border: 1px solid black;
+        justify-content: space-around;
+        flex-direction: column;
+        
+        border: 1px solid rgb(156, 156, 156);
        /* height: 50px;
         width:40px;
         box-sizing: border-box;*/
         margin: 20px;
-       
-     
-    
+        padding: 0;
+        width: 250px;
+        text-align: center;
+               
     }
 
-    @media only screen and (min-width:320px) and (max-width:480px){
-        .flex-item{
-            width:50px;
-        }
-    }
 
-   /* .item > .empty{
-        height:10em;
-        width:0.8em;
-    }*/
+   .item > .empty{
+        height:300px;
+        width:100%;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        
+    }
 
    /* .item .paragraph{
         padding-top: 9em;
@@ -75,31 +78,58 @@ div.item {
 */
     .item .paragraph .bold{
         font-weight: bold;
+        color:white;
+        font-size: 15px;
+        margin: 16px 0 0 0;
         
     }
 
-    .item .paragraph .normal{
+    .item .paragraph .textnormal{
         font-weight: normal;
-      color: white;
+      color: #ffffff6f;
+      font-size: 12px;
+      margin: 0 0 0 12;
+      padding: 0;
+      
+    }
+
+    .paragraph {
+        background: transparent;
+        margin: 0;
     }
 
 
-    footer button{
-        margin-top: 15em;
+    .end-part button{
+        margin-top: 10px;
         
     }
 
 
-   footer button {
+  .end-part button {
         border-color: #14d1ce;
         background-color: transparent;
         color: #14d1ce;
-        font-size: 20px;
+        font-size: 15px;
         font-family: sans-serif;
         font-weight: 750;
-        padding: 15px 18px;
+        padding: 10px 14px;
         border-radius: 5px;
       
     }
 
-   
+    #title-p {
+        font-size: 20px;
+        margin-top: 3;
+            }
+   .end-part {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+   }
+
+   .end-part h2 {
+    padding-top: 20px;
+    font-size: 15px;
+   }
