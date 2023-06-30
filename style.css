@@ -61,8 +61,9 @@ main {
         text-align: center;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin: 0 auto;
+        max-width: 25%;
     }
 }
 
@@ -184,7 +185,7 @@ main {
 
 .contact-section {
     display: flex;
-    width: 70%;
+    width: 40%;
     margin-right: auto;
     margin-left: auto;
     justify-content: space-between;
@@ -219,10 +220,10 @@ main {
     border: 2px solid rgba(38, 198, 218, 0.8);
     background-color: #fff;
     text-transform: uppercase;
-    padding: 1em 2em;
+    padding: 5px 10px;
     font-weight: bold;
-    margin-top: 1em;
     font-family: 'Lato', sans-serif;
+    border-radius: 0;
 }
 
 /*--------------------- CLIENT LOGO CONTAINER -----------------------------------*/
@@ -290,11 +291,12 @@ footer address {
 
 .upper-footer-container {
     gap: 1rem;
+    max-width: 40%;
 }
 
 .upper-footer-container,
 .lower-footer-container {
-    width: 70%;
+
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -303,6 +305,7 @@ footer address {
 
 .lower-footer-container {
     color: #fff;
+    margin: 0 800px;
 }
 
 footer .footer-nav {
@@ -392,20 +395,23 @@ footer .footer-nav {
 .stay-in-touch-container form {
     display: flex;
     gap: 0.5em;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .stay-in-touch-container input {
     background: transparent;
     border: 1px solid #fff;
-    padding: 1em;
+    height: 40px;
     opacity: 50%;
     font-size: 1em;
+
 }
 
 .stay-in-touch-container button {
     padding: 0 2em 0 2em;
     opacity: 50%;
+    width: 75px;
+
 }
 
 header {
